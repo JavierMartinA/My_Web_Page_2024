@@ -6,22 +6,26 @@
 
 body{
     min-height: 100%;
-    width: 99%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .container {
+    flex-grow: 1;
     width: 100%;
-    margin: 0 auto;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
+/*Header*/
 header {
     background-color: #1a1a2e;
     color: white;
     padding: 10px;
     text-align: center;
+    width: 100%;
 }
 
 .header-content{
@@ -31,14 +35,14 @@ header {
 }
 
 .header-title{
-    justify-content: center;
     font-size: 3.5rem;
-    margin: 0;
+    margin-left: 43%;
 }
 
 nav {
     display: flex;
     gap: 20px;
+    padding-left: 10px;
 }
 
 nav a {
@@ -56,9 +60,13 @@ nav a:hover {
 }
 
 nav a.active {
-    background-color: red;
+    background-color: blue;
     color: white;
 }
+
+/*</header>*/
+
+/*Content*/
 
 .content {
     height: 90%;
@@ -70,13 +78,15 @@ nav a.active {
     background-color: grey;
     gap: 20px;
 }
+
 .content p{
     margin-left: 40px;
     margin-bottom: 20px;
 }
 
 .content ul {
-    margin-left: 50px;
+    padding-left: 20px; 
+    list-style-position: inside; 
 }
 
 .content ul li{
@@ -85,6 +95,19 @@ nav a.active {
     text-align: center;
 }
 
+table {
+    width: 100%; 
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: center;
+    vertical-align: top;
+    padding: 10px;
+    border: 1px solid black; 
+}
+
+/*Logo UFV*/
 .logo {
     display: flex;
     justify-content: center;
@@ -95,6 +118,7 @@ nav a.active {
     height: 50px;
     width: 100px;
 }
+/*</logo>*/
 
 /*Contact*/
 .contact-forms {
@@ -134,8 +158,6 @@ nav a.active {
     flex: 1;
 }
 
-
-
 label {
     margin: 5px;
 }
@@ -147,14 +169,60 @@ label {
 }
 
 .contact-forms button {
-    height: 100%;
-    width: 100%;
+    margin-left: 40%;
+    height: 20px;
+    width: 20%;
     background-color: white;
     color: black;
 }
 
+/*<contact>*/
+
+/*Degree*/
+.container-degree {
+    flex-grow: 1;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.content-degree {
+    height: 90%;
+    width: 110%;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: grey;
+    gap: 20px;
+}
+
+.content-degree ul {
+    padding-left: 20px; 
+    list-style-position: inside; 
+}
+
+.content-degree ul li{
+    justify-content: center;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.menu-degree {
+    background-color: #1a1a2e;
+    width: 110%;
+    height: 40px;;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/*</Degree>*/
+
+/*Menu*/
 .menu {
     background-color: #1a1a2e;
+    width: 100%;
+    height: 40px;;
     padding: 20px 0;
     text-align: center;
 }
@@ -164,11 +232,6 @@ label {
     background-color: blue;
     color: white;
     text-align: center;
-}
-
-.footer-section a {
-    color: red;
-    text-decoration: none;
 }
 
 .footer-section a:hover {
