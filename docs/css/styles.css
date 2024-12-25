@@ -186,9 +186,13 @@ label {
     padding-right: 0px;
 }
 
+.container-degree p {
+    padding-left: 20px;
+}
+
 .content-degree {
     height: 90%;
-    width: 110%;
+    width: 120%;
     padding: 20px 0;
     display: flex;
     flex-direction: column;
