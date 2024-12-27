@@ -111,7 +111,6 @@ th, td {
 .logo {
     display: flex;
     justify-content: center;
-    align-items: left;
 }
 
 .logo-icon {
@@ -119,6 +118,8 @@ th, td {
     width: 100px;
 }
 /*</logo>*/
+
+
 
 /*About me*/
 .content-about {
@@ -293,30 +294,40 @@ label {
     text-align: center;
 }
 
-.menu-degree {
-    background-color: #1a1a2e;
-    width: 100%;
-    height: 40px;;
-    padding: 20px 0;
-    text-align: center;
-}
-
 /*</Degree>*/
 
 /*Menu*/
-.menu {
-    background-color: #1a1a2e;
+.menu{
+    display: flex;
+    justify-content: space-between;
     width: 100%;
-    height: 40px;;
+    height: 40px;
+    background-color: #1a1a2e;
     padding: 20px 0;
-    text-align: center;
+    align-items: center;
 }
 
-.footer-section{
-    width: 100%;
-    color: white;
-    text-align: center;
+
+.footer-section {
+    font-size: medium;
+    margin-left: 37%;
 }
+
+/*Icon*/
+.icon {
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+    gap: 20px;
+
+}
+
+.icon-logo {
+    width: 100%;
+    height: 50px;
+
+}
+/*</Icon>*/
 
 .footer-section a:hover {
     text-decoration: underline;
