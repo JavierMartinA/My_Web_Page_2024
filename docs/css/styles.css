@@ -248,6 +248,8 @@ label {
     width: 80%;
     height: 200px;
     padding: 8px;
+    font-size: 30px;
+    font-weight: bold; 
 }
 
 .contact-forms button {
@@ -261,6 +263,11 @@ label {
 /*<contact>*/
 
 /*Degree*/
+.title-degree {
+    font-size: 3.5rem;
+    margin-left: 33%;
+}
+
 .container-degree {
     
     width: 100%;
@@ -281,6 +288,18 @@ label {
     align-items: center;
     background-color: grey;
     gap: 20px;
+}
+
+.content-degree table {
+    width: 100%; 
+    border-collapse: collapse;
+}
+
+.content-degree th, td {
+    text-align: center;
+    vertical-align: top;
+    padding: 10px;
+    border: 1px solid black; 
 }
 
 .content-degree ul {
