@@ -120,6 +120,87 @@ th, td {
 }
 /*</logo>*/
 
+/*About me*/
+.content-about {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: grey;
+}
+
+.description {
+    width: 50%;
+    align-items: left;
+    text-align: center;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.photo-icon {
+    padding-left: 80px;
+    width: 500px;
+    height: 100%;
+}
+
+.curriculum-vitae {
+        background-color: #1a1a2e;
+        color: white;
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;
+        width: 100%;
+}
+
+.curriculum-vitae-menu {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 100%;
+    align-items: center;
+    color: white;
+    background-color: blue;
+}
+
+.curriculum-vitae-photo {
+    width: 90%;
+    border-radius: 50%;
+    margin-top: 50%;
+    margin-bottom: 20px;
+}
+
+
+.curriculum-contact {
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.curriculum-information {
+    width: 80%;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    justify-content: center;
+    gap: 20px;
+}
+
+.curriculum-information table {
+    width: 100%; 
+}
+
+.curriculum-information th, td {
+    text-align: center;
+    vertical-align: top;
+    padding: 10px;
+    border-color: white;
+}
+
+.curriculum-grey {
+    color: grey;
+    padding-bottom: 40px;
+}
+
+
+
 /*Contact*/
 .contact-forms {
     display: flex;
@@ -135,7 +216,7 @@ th, td {
 
 .contact-forms input[type="text"] {
     padding: 8px;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     width: 80%;
     margin-bottom: 40px;
@@ -151,7 +232,7 @@ th, td {
 .contact-user input[type="text"] {
     width: 50%; 
     padding: 10px; 
-    font-size: 16px; 
+    font-size: 30px; 
 }
 
 .contact-name, .contact-username {
@@ -180,7 +261,7 @@ label {
 
 /*Degree*/
 .container-degree {
-    flex-grow: 1;
+    
     width: 100%;
     padding-left: 0px;
     padding-right: 0px;
@@ -192,7 +273,7 @@ label {
 
 .content-degree {
     height: 90%;
-    width: 120%;
+    width: 100%;
     padding: 20px 0;
     display: flex;
     flex-direction: column;
@@ -214,7 +295,7 @@ label {
 
 .menu-degree {
     background-color: #1a1a2e;
-    width: 110%;
+    width: 100%;
     height: 40px;;
     padding: 20px 0;
     text-align: center;
@@ -233,7 +314,6 @@ label {
 
 .footer-section{
     width: 100%;
-    background-color: blue;
     color: white;
     text-align: center;
 }

@@ -6,7 +6,9 @@
 - Added a better version of home.
 - Added an initial version of degree.
 - Added the basement of about me, FCE, net and topic.
-- Briefly description of all the subjects in degree 
+- Briefly description of all the subjects in degree.
+- Added my personal photo
+- Added a version of about me.
 
 ## Problems during the development
 - The point of the index list appeared in the left part of the window, so I need a lot of research for solving this problem.
