@@ -56,7 +56,6 @@ nav a {
 
 nav a:hover {
     background-color: #555;
-    -webkit-animation-delay: 0ms100%;
 }
 
 nav a.active {
@@ -81,6 +80,7 @@ nav a.active {
 
 .content p{
     margin-left: 40px;
+    margin-right: 40px;
     margin-bottom: 20px;
 }
 
@@ -111,6 +111,7 @@ th, td {
 .logo {
     display: flex;
     justify-content: center;
+    margin-right: 10px;
 }
 
 .logo-icon {
@@ -268,6 +269,12 @@ label {
     margin-left: 33%;
 }
 
+.FCE-title {
+    font-size: 3.5rem;
+    margin-left: 17%;
+    padding-bottom: 10px;
+}
+
 .container-degree {
     
     width: 100%;
@@ -293,6 +300,7 @@ label {
 .content-degree table {
     width: 100%; 
     border-collapse: collapse;
+    font-size: small;
 }
 
 .content-degree th, td {
@@ -314,6 +322,14 @@ label {
 }
 
 /*</Degree>*/
+
+/*Net*/
+.mates {
+    width: 100%;
+    height: 100%;
+    font-size: large;
+
+}
 
 /*Menu*/
 .menu{
