@@ -16,8 +16,7 @@ body{
 .container {
     flex-grow: 1;
     width: 100%;
-    padding-left: 0px;
-    padding-right: 0px;
+    
 }
 
 /*Header*/
@@ -171,7 +170,7 @@ th, td {
     display: flex;
     flex-direction: column;
     width: 20%;
-    height: 110%;
+    height: 100%;
     align-items: center;
     color: white;
     background-color: rgb(4, 4, 106);
@@ -182,6 +181,13 @@ th, td {
     border-radius: 50%;
     margin-top: 50%;
     margin-bottom: 20px;
+}
+
+.curriculum-vitae-menu-icon{
+    height: 80px;
+    width: 80px;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 
